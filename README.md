@@ -1,5 +1,5 @@
 # (Classical) Metric Multidimensional Scaling
-This repository contains a C# implementation of the **Classical Multidimensional Scaling (CMDS)** algorithm. CMDS is a Metric MDS, distance preserving dimensionality reduction algorithm. It allows to map a high-dimensional dataset into a lower-dimensional dataset, preserving most of the datapoint's pairwise distances. A use case is, for example, to recover the location of objects in a 2D plane, knowing only the object's pairwise distances.
+This repository contains a C# implementation of the **Classical Multidimensional Scaling (CMDS)** algorithm. CMDS is a Metric MDS, distance preserving dimensionality reduction algorithm. It allows mapping a high-dimensional dataset into a lower-dimensional dataset, preserving most of the datapoint's pairwise distances. A use case is, for example, to recover the location of objects in a 2D plane, knowing only the object's pairwise distances.
 
 A real-example: Given only the pairwise distances between five German cities, CMDS has been used to recover their location in a 2D map.
 
@@ -11,7 +11,7 @@ As I once needed a C# Metric MDS implementation and couldn't find any proper cod
 
 ## How to start it?
 
-The code is given as a .NET Class Library, so there is no executable component involved. After building the package once, the .dll file can be used as a reference in any other projects. Alternatively, you can copy the ClassicalMDS.cs file by hand and paste it into your project.
+The code is given as a .NET Class Library, so there is no executable component involved. After building the package once, the `.dll` file can be used as a reference in any other projects. Alternatively, you can copy the ClassicalMDS.cs file by hand and paste it into your project.
 
 The algorithm can be used the following:
 
